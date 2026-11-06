@@ -1,0 +1,373 @@
+{
+  "gameName": "凱旋時空修復員",
+  "startBgImg": "https://i.postimg.cc/SR4C81qt/Gemini-Generated-Image-q8ex5rq8ex5rq8ex.jpg",
+  "startSubtitle": "凱旋校園實境解謎",
+  "passcode": "",
+  "forceLogExport": false,
+  "themeColor": "dark",
+  "customTabEnabled": false,
+  "customTabName": "",
+  "customTabUrl": "",
+  "customTabDesc": "",
+  "backpackEnabled": true,
+  "timeLimitEnabled": false,
+  "timeLimitSeconds": 300,
+  "carouselAuto": false,
+  "carouselInterval": 3,
+  "mapRegion": "auto",
+  "stepCounterEnabled": false,
+  "stepStride": 75,
+  "stepWeight": 60,
+  "stepSensitivity": "medium",
+  "stepRules": [],
+  "dataReturnEnabled": false,
+  "dataReturnUrl": "",
+  "dataReturnEmail": "",
+  "tickerEnabled": true,
+  "tickerInterval": 6,
+  "tickerText": "安全提醒：和隊友一起行動，走廊慢走，不進入未開放區域。",
+  "items": [
+    {
+      "id": "id_1793892252069929",
+      "name": "時空定位碎片",
+      "desc": "校門處擷取的時空座標，能鎖定這段歷史在物質世界中的絕對位置。",
+      "img": "https://i.postimg.cc/5NwKZD6J/Gemini-Generated-Image-huvrh3huvrh3huvr.jpg",
+      "isStart": false,
+      "actionType": "unlock",
+      "actionVal": "",
+      "keepAfterUse": false,
+      "extraMsg": "",
+      "extraLink": "",
+      "targetStage": "stage_1793896462467"
+    },
+    {
+      "id": "id_1793893661930431",
+      "name": "動能共振核心",
+      "desc": "籃球場上匯聚的動能結晶，可用來平衡紊亂的時間流速。",
+      "img": "https://i.postimg.cc/0j9Kr60q/Gemini-Generated-Image-df4fj3df4fj3df4f.jpg",
+      "isStart": false,
+      "actionType": "unlock",
+      "actionVal": "",
+      "keepAfterUse": false,
+      "extraMsg": "",
+      "extraLink": "",
+      "targetStage": "stage_1793896462467"
+    },
+    {
+      "id": "id_1793896864837511",
+      "name": "五心校徽圖騰",
+      "desc": "凝聚全校五心信念與烈火熱忱的精神圖騰，能穩固失衡的校園記憶。",
+      "img": "https://sites.google.com/sitesv-images-rt/AMxu72uOdNYRqMp8rNRQbsNW5r4Ne-l2ztzkYkSYwTbkvkatCzDggvnJTSuwcB1cZ65N6HqxPH-g7yJQ4yNx3i7qSF7roU6nK3LWTTFPb3tv65OExEdZb4GT7LaARAo7lN5l2R44pHa15bpNhtyhIeqG_QKC5S3Btc3i-kqK7a6DOgNTQ7_qnNFaeKFbgiMaCffCLGcwa5Xx3Z0SrjRAvvwof_LAze1R8m4Pe5gcYPqc=w1280",
+      "isStart": false,
+      "actionType": "unlock",
+      "actionVal": "",
+      "keepAfterUse": false,
+      "extraMsg": "",
+      "extraLink": "",
+      "targetStage": "stage_1793896462467"
+    },
+    {
+      "id": "id_1793896987644997",
+      "name": "時空光影晶片",
+      "desc": "封存了學校數十年歷史光影的微型晶片，是重組校園記憶的關鍵線索。",
+      "img": "https://img.youtube.com/vi/tt8MuvOnkvU/hqdefault.jpg",
+      "isStart": false,
+      "actionType": "unlock",
+      "actionVal": "",
+      "keepAfterUse": false,
+      "extraMsg": "",
+      "extraLink": "",
+      "targetStage": "stage_1793896462467"
+    }
+  ],
+  "stages": {
+    "stage_1793884425665": {
+      "id": "stage_1793884425665",
+      "name": "起點裂縫",
+      "triggerRadius": 20,
+      "lat": 24.724416,
+      "lon": 121.763028,
+      "showNavGuide": false,
+      "testMode": false,
+      "preludeMedia": [
+        "https://i.postimg.cc/5NwKZD6J/Gemini-Generated-Image-huvrh3huvrh3huvr.jpg"
+      ],
+      "preludeStory": "時空觀測儀發出警報！裂縫就在校園起點。請和隊友一起到校門口，找出學校的座標。",
+      "puzzleMedia": [
+        "https://images.chinatimes.com/newsphoto/2022-03-31/656/20220331001432.jpg"
+      ],
+      "story": "柯萊特傳來訊息：『修復員，請觀察校門旁的門牌。找出凱旋國小的路名和門牌號碼，完成第一個時空定位！』",
+      "puzzle": "校門牌上寫著哪一條路、幾號？",
+      "answer": "凱旋路\\s*130\\s*號?",
+      "qrRevealText": "",
+      "answerType": "regex",
+      "requiredItemIds": [],
+      "photoThreshold": 80,
+      "answerPhotos": [],
+      "arPhotos": [],
+      "arThreshold": 75,
+      "arOverlayType": "image",
+      "arOverlayImage": "",
+      "arOverlayModel": "",
+      "arOverlayText": "",
+      "preludeIntroEnabled": false,
+      "preludeIntroSpeed": 45,
+      "endIntroEnabled": false,
+      "endIntroSpeed": 45,
+      "answerBranchLocks": [],
+      "score": 100,
+      "hints": [
+        {
+          "time": 60,
+          "img": "",
+          "text": "找一找校門或警衛室旁的正式門牌。",
+          "links": []
+        },
+        {
+          "time": 120,
+          "img": "",
+          "text": "答案要包含「凱旋路」和數字「130」。",
+          "links": []
+        }
+      ],
+      "isEnd": false,
+      "endMedia": [],
+      "endStory": "",
+      "transitionStory": "座標校準成功！你獲得了【時空定位碎片】。下一個異常充滿奔跑、投球和歡呼聲，請和隊友慢走前往籃球場。",
+      "transitionMedia": [],
+      "nextStages": [
+        "stage_1793894555463"
+      ],
+      "acquireItemId": "id_1793892252069929"
+    },
+    "stage_1793894555463": {
+      "id": "stage_1793894555463",
+      "name": "動能迴圈",
+      "triggerRadius": 25,
+      "lat": 24.723789,
+      "lon": 121.763293,
+      "showNavGuide": true,
+      "testMode": false,
+      "preludeMedia": [
+        "https://i.postimg.cc/0j9Kr60q/Gemini-Generated-Image-df4fj3df4fj3df4f.jpg"
+      ],
+      "preludeStory": "過去的歡呼聲被困在球場上空。請和隊友前往籃球場，找出解除回圈的數字。",
+      "puzzleMedia": [
+        "https://iplay.sports.gov.tw/Upload/photogym/20170627143847_794M6.jpg"
+      ],
+      "story": "柯萊特說：『球場的動能被鎖住了！請站在安全位置環顧四周，數一數所有籃球架。』",
+      "puzzle": "請環顧現場，這座籃球場上一共有幾座「籃球架」？",
+      "answer": "^(4|四)(座|個)?$",
+      "qrRevealText": "",
+      "answerType": "regex",
+      "requiredItemIds": [],
+      "photoThreshold": 80,
+      "answerPhotos": [],
+      "arPhotos": [],
+      "arThreshold": 75,
+      "arOverlayType": "image",
+      "arOverlayImage": "",
+      "arOverlayModel": "",
+      "arOverlayText": "",
+      "preludeIntroEnabled": false,
+      "preludeIntroSpeed": 45,
+      "endIntroEnabled": false,
+      "endIntroSpeed": 45,
+      "answerBranchLocks": [],
+      "score": 100,
+      "hints": [
+        {
+          "time": 60,
+          "img": "",
+          "text": "沿著球場邊線看一圈，每一組籃板和籃框算一座。",
+          "links": []
+        },
+        {
+          "time": 120,
+          "img": "",
+          "text": "答案可以輸入阿拉伯數字，也可以輸入中文數字。",
+          "links": []
+        }
+      ],
+      "isEnd": false,
+      "endMedia": [],
+      "endStory": "",
+      "transitionStory": "動能回圈解除！你獲得了【動能共振核心】。下一站是扇形廣場，請尋找牆上由五顆心、火焰和「凱」字組成的大校徽。",
+      "transitionMedia": [],
+      "nextStages": [
+        "stage_1793894943262"
+      ],
+      "acquireItemId": "id_1793893661930431"
+    },
+    "stage_1793894943262": {
+      "id": "stage_1793894943262",
+      "name": "精神印記",
+      "triggerRadius": 25,
+      "lat": 24.724358,
+      "lon": 121.763598,
+      "showNavGuide": true,
+      "testMode": false,
+      "preludeMedia": [],
+      "preludeStory": "校園精神核心正在變暗。請前往扇形廣場，尋找牆上的巨大校徽。",
+      "puzzleMedia": [],
+      "story": "柯萊特說：『五顆相連的心代表大家一起守護校園。請站穩、保持安全距離，把鏡頭對準完整校徽。』",
+      "puzzle": "開啟 AR 掃描，讓完整校徽出現在畫面中央。",
+      "answer": "",
+      "qrRevealText": "",
+      "answerType": "ar_match",
+      "requiredItemIds": [],
+      "photoThreshold": 75,
+      "answerPhotos": [],
+      "arPhotos": [
+        "https://sites.google.com/sitesv-images-rt/AMxu72uOdNYRqMp8rNRQbsNW5r4Ne-l2ztzkYkSYwTbkvkatCzDggvnJTSuwcB1cZ65N6HqxPH-g7yJQ4yNx3i7qSF7roU6nK3LWTTFPb3tv65OExEdZb4GT7LaARAo7lN5l2R44pHa15bpNhtyhIeqG_QKC5S3Btc3i-kqK7a6DOgNTQ7_qnNFaeKFbgiMaCffCLGcwa5Xx3Z0SrjRAvvwof_LAze1R8m4Pe5gcYPqc=w1280"
+      ],
+      "arThreshold": 75,
+      "arOverlayType": "image",
+      "arOverlayImage": "",
+      "arOverlayModel": "",
+      "arOverlayText": "",
+      "preludeIntroEnabled": false,
+      "preludeIntroSpeed": 45,
+      "endIntroEnabled": false,
+      "endIntroSpeed": 45,
+      "answerBranchLocks": [],
+      "score": 100,
+      "hints": [
+        {
+          "time": 60,
+          "img": "",
+          "text": "讓校徽完整入鏡，避免反光或被同學遮住。",
+          "links": []
+        },
+        {
+          "time": 120,
+          "img": "",
+          "text": "如果辨識不到，退後一小步，再把手機拿穩。",
+          "links": []
+        }
+      ],
+      "isEnd": false,
+      "endMedia": [],
+      "endStory": "",
+      "transitionStory": "校徽發出金色光芒！你獲得了【五心校徽圖騰】。接著前往視聽中心，解開校園影像裡的祕密。",
+      "transitionMedia": [],
+      "nextStages": [
+        "stage_1793895917929"
+      ],
+      "acquireItemId": "id_1793896864837511"
+    },
+    "stage_1793895917929": {
+      "id": "stage_1793895917929",
+      "name": "光影記憶",
+      "triggerRadius": 25,
+      "lat": 24.72421,
+      "lon": 121.764245,
+      "showNavGuide": true,
+      "testMode": false,
+      "preludeMedia": [],
+      "preludeStory": "一段校園影像正在呼救。請前往視聽中心，仔細觀察影片中的校門廊道。",
+      "puzzleMedia": [
+        "https://www.youtube.com/watch?v=tt8MuvOnkvU"
+      ],
+      "story": "柯萊特說：『關鍵密碼藏在影片裡。和隊友安靜看完指定畫面，再一起確認答案。』",
+      "puzzle": "影片中的校門廊道屋頂上，一共有幾個小朋友？",
+      "answer": "^(9|九)(位|個|人)?$",
+      "qrRevealText": "",
+      "answerType": "regex",
+      "requiredItemIds": [],
+      "photoThreshold": 80,
+      "answerPhotos": [],
+      "arPhotos": [],
+      "arThreshold": 75,
+      "arOverlayType": "image",
+      "arOverlayImage": "",
+      "arOverlayModel": "",
+      "arOverlayText": "",
+      "preludeIntroEnabled": false,
+      "preludeIntroSpeed": 45,
+      "endIntroEnabled": false,
+      "endIntroSpeed": 45,
+      "answerBranchLocks": [],
+      "score": 100,
+      "hints": [
+        {
+          "time": 60,
+          "img": "",
+          "text": "先暫停在校門廊道的畫面，再從左到右慢慢數。",
+          "links": []
+        },
+        {
+          "time": 120,
+          "img": "",
+          "text": "答案是比 8 多 1 的數字。",
+          "links": []
+        }
+      ],
+      "isEnd": false,
+      "endMedia": [],
+      "endStory": "",
+      "transitionStory": "影像密碼破解成功！你獲得了【時空光影晶片】。四件核心元件已收集完成，請和隊友返回出發基地，準備最後融合。",
+      "transitionMedia": [],
+      "nextStages": [
+        "stage_1793896462467"
+      ],
+      "acquireItemId": "id_1793896987644997"
+    },
+    "stage_1793896462467": {
+      "id": "stage_1793896462467",
+      "name": "時空共振終章",
+      "triggerRadius": 25,
+      "lat": 24.724524,
+      "lon": 121.763486,
+      "showNavGuide": true,
+      "testMode": false,
+      "preludeMedia": [],
+      "preludeStory": "四件核心元件都找到了！請和隊友返回出發基地，完成最後的時空修復。",
+      "puzzleMedia": [],
+      "story": "柯萊特說：『修復員，你們已帶回定位碎片、動能核心、五心圖騰和光影晶片。請打開背包，依序使用這 4 件道具，啟動時空共振！』",
+      "puzzle": "打開背包，使用全部 4 件時空道具。",
+      "answer": "",
+      "qrRevealText": "",
+      "answerType": "item_use",
+      "requiredItemIds": [
+        "id_1793892252069929",
+        "id_1793893661930431",
+        "id_1793896864837511",
+        "id_1793896987644997"
+      ],
+      "photoThreshold": 80,
+      "answerPhotos": [],
+      "arPhotos": [],
+      "arThreshold": 75,
+      "arOverlayType": "image",
+      "arOverlayImage": "",
+      "arOverlayModel": "",
+      "arOverlayText": "",
+      "preludeIntroEnabled": true,
+      "preludeIntroSpeed": 45,
+      "endIntroEnabled": true,
+      "endIntroSpeed": 45,
+      "answerBranchLocks": [],
+      "score": 100,
+      "hints": [
+        {
+          "time": 60,
+          "img": "",
+          "text": "點開背包，逐一選取 4 件道具並使用。",
+          "links": []
+        }
+      ],
+      "isEnd": true,
+      "endMedia": [
+        "https://i.postimg.cc/MGTm9FCW/Gemini-Generated-Image-m2wr09m2wr09m2wr.jpg",
+        "https://i.postimg.cc/0yNSvJcH/Gemini-Generated-Image-wwlmr1wwlmr1wwlm.jpg"
+      ],
+      "endStory": "雜訊消失了！四件道具融合成耀眼的【時空共振儀】。\n\n畫面出現 2040 年陽光明亮的凱旋國小。柯萊特說：『座標、活力、五心和記憶都已復原。謝謝 2026 年的你們，用觀察、合作與腳步守護校園！』\n\n任務完成！你們正式成為【頂級時空領航員】。",
+      "transitionStory": "",
+      "transitionMedia": [],
+      "nextStages": [],
+      "acquireItemId": ""
+    }
+  },
+  "notebookEnabled": false
+}
