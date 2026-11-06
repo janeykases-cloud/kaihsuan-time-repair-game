@@ -1,6 +1,6 @@
 {
   "gameName": "凱旋時空修復員",
-  "startBgImg": "https://i.postimg.cc/SR4C81qt/Gemini-Generated-Image-q8ex5rq8ex5rq8ex.jpg",
+  "startBgImg": "",
   "startSubtitle": "凱旋校園實境解謎",
   "passcode": "",
   "forceLogExport": false,
@@ -31,7 +31,7 @@
       "id": "id_1793892252069929",
       "name": "時空定位碎片",
       "desc": "校門處擷取的時空座標，能鎖定這段歷史在物質世界中的絕對位置。",
-      "img": "https://i.postimg.cc/5NwKZD6J/Gemini-Generated-Image-huvrh3huvrh3huvr.jpg",
+      "img": "",
       "isStart": false,
       "actionType": "unlock",
       "actionVal": "",
@@ -44,7 +44,7 @@
       "id": "id_1793893661930431",
       "name": "動能共振核心",
       "desc": "籃球場上匯聚的動能結晶，可用來平衡紊亂的時間流速。",
-      "img": "https://i.postimg.cc/0j9Kr60q/Gemini-Generated-Image-df4fj3df4fj3df4f.jpg",
+      "img": "",
       "isStart": false,
       "actionType": "unlock",
       "actionVal": "",
@@ -89,9 +89,7 @@
       "lon": 121.763028,
       "showNavGuide": false,
       "testMode": false,
-      "preludeMedia": [
-        "https://i.postimg.cc/5NwKZD6J/Gemini-Generated-Image-huvrh3huvrh3huvr.jpg"
-      ],
+      "preludeMedia": [],
       "preludeStory": "時空觀測儀發出警報！裂縫就在校園起點。請和隊友一起到校門口，找出學校的座標。",
       "puzzleMedia": [
         "https://images.chinatimes.com/newsphoto/2022-03-31/656/20220331001432.jpg"
@@ -148,9 +146,7 @@
       "lon": 121.763293,
       "showNavGuide": true,
       "testMode": false,
-      "preludeMedia": [
-        "https://i.postimg.cc/0j9Kr60q/Gemini-Generated-Image-df4fj3df4fj3df4f.jpg"
-      ],
+      "preludeMedia": [],
       "preludeStory": "過去的歡呼聲被困在球場上空。請和隊友前往籃球場，找出解除回圈的數字。",
       "puzzleMedia": [
         "https://iplay.sports.gov.tw/Upload/photogym/20170627143847_794M6.jpg"
@@ -358,10 +354,7 @@
         }
       ],
       "isEnd": true,
-      "endMedia": [
-        "https://i.postimg.cc/MGTm9FCW/Gemini-Generated-Image-m2wr09m2wr09m2wr.jpg",
-        "https://i.postimg.cc/0yNSvJcH/Gemini-Generated-Image-wwlmr1wwlmr1wwlm.jpg"
-      ],
+      "endMedia": [],
       "endStory": "雜訊消失了！四件道具融合成耀眼的【時空共振儀】。\n\n畫面出現 2040 年陽光明亮的凱旋國小。柯萊特說：『座標、活力、五心和記憶都已復原。謝謝 2026 年的你們，用觀察、合作與腳步守護校園！』\n\n任務完成！你們正式成為【頂級時空領航員】。",
       "transitionStory": "",
       "transitionMedia": [],
