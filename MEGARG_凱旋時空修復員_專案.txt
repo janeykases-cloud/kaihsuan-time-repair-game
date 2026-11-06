@@ -57,7 +57,7 @@
       "id": "id_1793896864837511",
       "name": "五心校徽圖騰",
       "desc": "凝聚全校五心信念與烈火熱忱的精神圖騰，能穩固失衡的校園記憶。",
-      "img": "https://sites.google.com/sitesv-images-rt/AMxu72uOdNYRqMp8rNRQbsNW5r4Ne-l2ztzkYkSYwTbkvkatCzDggvnJTSuwcB1cZ65N6HqxPH-g7yJQ4yNx3i7qSF7roU6nK3LWTTFPb3tv65OExEdZb4GT7LaARAo7lN5l2R44pHa15bpNhtyhIeqG_QKC5S3Btc3i-kqK7a6DOgNTQ7_qnNFaeKFbgiMaCffCLGcwa5Xx3Z0SrjRAvvwof_LAze1R8m4Pe5gcYPqc=w1280",
+      "img": "https://janeykases-cloud.github.io/kaihsuan-time-repair-game/assets/kaihsuan-emblem-reference.jpg",
       "isStart": false,
       "actionType": "unlock",
       "actionVal": "",
@@ -206,17 +206,15 @@
       "preludeMedia": [],
       "preludeStory": "校園精神核心正在變暗。請前往扇形廣場，尋找牆上的巨大校徽。",
       "puzzleMedia": [],
-      "story": "柯萊特說：『五顆相連的心代表大家一起守護校園。請站穩、保持安全距離，把鏡頭對準完整校徽。』",
-      "puzzle": "開啟 AR 掃描，讓完整校徽出現在畫面中央。",
-      "answer": "",
+      "story": "柯萊特說：『五顆相連的心代表大家一起守護校園。請站在安全位置，拍下牆上的完整校徽，讓系統比對精神印記。』",
+      "puzzle": "請用相機拍下牆上的完整校徽，或上傳剛才拍攝的現場照片。",
+      "answer": "https://janeykases-cloud.github.io/kaihsuan-time-repair-game/assets/kaihsuan-emblem-reference.jpg",
       "qrRevealText": "",
-      "answerType": "ar_match",
+      "answerType": "photo_match",
       "requiredItemIds": [],
-      "photoThreshold": 75,
+      "photoThreshold": 70,
       "answerPhotos": [],
-      "arPhotos": [
-        "https://sites.google.com/sitesv-images-rt/AMxu72uOdNYRqMp8rNRQbsNW5r4Ne-l2ztzkYkSYwTbkvkatCzDggvnJTSuwcB1cZ65N6HqxPH-g7yJQ4yNx3i7qSF7roU6nK3LWTTFPb3tv65OExEdZb4GT7LaARAo7lN5l2R44pHa15bpNhtyhIeqG_QKC5S3Btc3i-kqK7a6DOgNTQ7_qnNFaeKFbgiMaCffCLGcwa5Xx3Z0SrjRAvvwof_LAze1R8m4Pe5gcYPqc=w1280"
-      ],
+      "arPhotos": [],
       "arThreshold": 75,
       "arOverlayType": "image",
       "arOverlayImage": "",
@@ -232,13 +230,13 @@
         {
           "time": 60,
           "img": "",
-          "text": "讓校徽完整入鏡，避免反光或被同學遮住。",
+          "text": "讓整個校徽清楚入鏡，避免反光、模糊或被同學遮住。",
           "links": []
         },
         {
           "time": 120,
           "img": "",
-          "text": "如果辨識不到，退後一小步，再把手機拿穩。",
+          "text": "如果比對失敗，請退後一點、把手機拿穩，再重新拍攝或上傳。",
           "links": []
         }
       ],
